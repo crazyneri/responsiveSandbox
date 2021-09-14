@@ -1,0 +1,21 @@
+$myColor: #ff0066;
+
+.nav {
+  border: 1px solid $myColor;
+  &.link {
+    color: $myColor;
+    &:hover {
+      background-color: $myColor;
+      color: #ffffff;
+    }
+  }
+}
+
+.nav .link {
+  color: #ff0066;
+}
+
+.nav .link:hover {
+  background-color: #ff0066;
+  color: #ffffff;
+}
